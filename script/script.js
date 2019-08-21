@@ -10,7 +10,7 @@ btn.addEventListener('click', function(){
     const script = document.createElement('script');
 
     //  script要素のsrc属性にリクエストURLを指定
-    const url = 'http://zipcloud.ibsnet.co.jp/api/search';
+    const url = '//zipcloud.ibsnet.co.jp/api/search';
     const zipcode = document.getElementById('zipcode').value;
 
     script.setAttribute('src', `${url}?zipcode=${zipcode}&callback=callback`);
